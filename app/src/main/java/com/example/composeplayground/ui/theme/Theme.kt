@@ -5,6 +5,7 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.darkColors
 import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.graphics.Color
 
 private val DarkColorPalette = darkColors(
     primary = Purple200,
@@ -27,6 +28,20 @@ private val LightColorPalette = lightColors(
     */
 )
 
+private val LightColorScheme = lightColors(
+    surface = Blue,
+    onSurface = Color.White,
+    primary = LightBlue,
+    onPrimary = Navy,
+)
+
+private val DarkColorScheme = darkColors(
+    surface = Blue,
+    onSurface = Navy,
+    primary = Navy,
+    onPrimary = Chartreuse
+)
+
 @Composable
 fun ComposePlayGroundTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
@@ -37,6 +52,8 @@ fun ComposePlayGroundTheme(
     } else {
         LightColorPalette
     }
+
+
 
     MaterialTheme(
         colors = colors,
