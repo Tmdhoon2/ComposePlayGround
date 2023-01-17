@@ -1,4 +1,4 @@
-package com.example.composeplayground.codelab
+package com.example.composeplayground.view
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

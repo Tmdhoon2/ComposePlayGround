@@ -1,4 +1,4 @@
-package com.example.composeplayground
+package com.example.composeplayground.view
 
 import android.content.res.Configuration
 import android.os.Bundle
@@ -22,6 +22,8 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.example.composeplayground.R
+import com.example.composeplayground.model.SampleData
 import com.example.composeplayground.ui.theme.ComposePlayGroundTheme
 
 class MainActivity : ComponentActivity() {

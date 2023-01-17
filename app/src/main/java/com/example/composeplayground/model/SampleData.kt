@@ -1,4 +1,6 @@
-package com.example.composeplayground
+package com.example.composeplayground.model
+
+import com.example.composeplayground.view.Message
 
 object SampleData {
     // Sample conversation data
