@@ -1,4 +1,4 @@
-package com.example.composeplayground.BasicStateCodeLab
+package com.example.composeplayground.basicStateCodeLab
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

@@ -1,4 +1,4 @@
-package com.example.composeplayground.BasicStateCodeLab
+package com.example.composeplayground.basicStateCodeLab
 
 import androidx.compose.runtime.toMutableStateList
 import androidx.lifecycle.ViewModel
