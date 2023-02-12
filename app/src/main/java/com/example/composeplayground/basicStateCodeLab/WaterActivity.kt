@@ -10,6 +10,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.composeplayground.ui.theme.ComposePlayGroundTheme
+import com.example.composeplayground.viewpager.ViewPagerScreen
 
 class WaterActivity: ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,7 +21,7 @@ class WaterActivity: ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ){
-                    WellnessScreen()
+                    ViewPagerScreen()
                 }
             }
         }
