@@ -19,9 +19,7 @@ import com.example.composeplayground.R
 @Composable
 fun ViewPagerScreen(){
     Column(
-        modifier = Modifier.fillMaxWidth()
-            .height(200.dp)
-            .background(color = Color.Black),
+        modifier = Modifier.fillMaxWidth(),
         horizontalAlignment = Alignment.CenterHorizontally,
     ){
         HorizontalPager(
